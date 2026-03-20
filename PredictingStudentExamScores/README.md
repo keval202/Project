@@ -64,18 +64,24 @@ PredictingStudentExamScores/
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
 ## ▶️ How to Run
 
-### 1. Clone Repository
-git clone https://github.com/your-username/student-score-predictor.git
-cd student-score-predictor
+```bash
 
-### 2. Create Virtual Environment
+### 1. Create Virtual Environment
 python -m venv venv
+
+### 2. Activate Virtual Environment
+
+Windows:
 venv\Scripts\activate
+
+Mac/Linux:
+source venv/bin/activate
 
 ### 3. Install Dependencies
 pip install -r requirements.txt
@@ -86,6 +92,7 @@ python train_model.py
 ### 5. Run Streamlit App
 python -m streamlit run app.py
 
+```
 ---
 
 ## 🧠 Key Learnings
@@ -94,12 +101,6 @@ python -m streamlit run app.py
 - Proper encoding strategies  
 - Model selection using metrics  
 - Deploying ML apps with Streamlit  
-
----
-
-## 🙌 Author
-
-Your Name
 
 ---
 
