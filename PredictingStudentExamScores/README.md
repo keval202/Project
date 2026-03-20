@@ -54,6 +54,7 @@ It includes:
 
 ## 📁 Project Structure
 
+```bash
 PredictingStudentExamScores/
 │
 ├── data/
